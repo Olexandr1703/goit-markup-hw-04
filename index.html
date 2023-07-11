@@ -31,7 +31,9 @@
           >
           <ul class="list-nav list">
             <li>
-              <a class="navigation-link active link" href="./index.html">Studio</a>
+              <a class="navigation-link active link" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li>
               <a class="navigation-link link" href="./portfolio.html"
@@ -66,7 +68,9 @@
           <h1 class="hero-section-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="hero-btn" type="button">Order Service</button>
+          <button class="hero-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -204,13 +208,13 @@
             <li class="clients-item">
               <a class="clients-link" href="" aria-label="logo 1">
                 <svg class="claiens-icon" width="104" height="56">
-                  <use href="./images/sprite.svg#customers-logo-1"></use> 
+                  <use href="./images/sprite.svg#customers-logo-1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a class="clients-link" href="" aria-label="logo 2"></a>
-              <svg class="claiens-icon" width="104" height="56">
+              <a class="clients-link" href="" aria-label="logo 2">
+                <svg class="claiens-icon" width="104" height="56">
                   <use href="./images/sprite.svg#customers-logo-2"></use>
                 </svg>
               </a>
@@ -259,12 +263,15 @@
         </p>
       </div>
     </footer>
-    <div class="backdrop">
-    <div class="modal">
-      <svg class="modal-icon" width="8" height="8">         
-        <use href="./images/webstudio-icons/x-close.svg"></use>
-      </svg>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <batton class="modal-btn" type="batton" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/sprite.svg#x-close"></use>
+          </svg>
+        </batton>
+      </div>
     </div>
-    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
