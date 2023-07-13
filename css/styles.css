@@ -76,6 +76,8 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--our-team-bg);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .hero-section-title {
   max-width: 496px;
@@ -92,8 +94,9 @@ img {
 }
 
 .four-section {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 120px;
+  background-color: var(--cloud-cl);
 }
 
 /* Reset */
@@ -186,6 +189,7 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
+  bottom: -1px;
 }
 /* Conacts */
 .contacts {
@@ -273,6 +277,13 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-black-cl);
 }
+
+.two-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+}
 .three-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -303,15 +314,9 @@ button {
   text-transform: capitalize;
   color: var(--main-dark-cl);
   text-align: center;
-}
-.four-section-title {
   margin-bottom: 72px;
 }
-.four-section {
-  background-color: var(--cloud-cl);
-  padding-top: 120px;
-  padding-top: 120px;
-}
+
 .four-section-name {
   font-weight: 500;
   font-size: 20px;
@@ -332,7 +337,7 @@ button {
 }
 .team-card-content {
   text-align: center;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .our-team-list {
@@ -648,11 +653,14 @@ button {
   width: 100%;
   padding: 12px;
   border-radius: 50%;
+  color: var(--clients-border);
 }
 
 .social-networks-link:hover,
 .social-networks-link:focus {
   background-color: var(--title-accent-cl);
+  color: var(--title-accent-cl);
+  border-color: var(--title-accent-cl);
 }
 
 .social-networks-icons {
