@@ -612,3 +612,33 @@ button {
 
 .icon {
 }
+
+/* Social networks */
+
+.social-networks-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-networks-item {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-networks-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--logo-accent-cl);
+  width: 100%;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.social-networks-icons {
+  fill: var(--cloud-cl);
+}
