@@ -278,12 +278,6 @@ button {
   color: var(--main-black-cl);
 }
 
-.two-section-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-}
 .three-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -624,6 +618,10 @@ button {
   border-radius: 4px;
   background: var(--cloud-cl);
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .icon {
