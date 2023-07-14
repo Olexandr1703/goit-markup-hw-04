@@ -713,7 +713,7 @@ button {
   flex-direction: column;
   gap: 16px;
   max-width: 692px;
-  margin-left: 120px;
+  margin-right: 120px;
 }
 .footer-media {
   color: var(--our-team-bg);
@@ -752,4 +752,5 @@ button {
 .footer-networks-icons {
   width: 24px;
   height: 24px;
+  fill: var(--cloud-cl);
 }
