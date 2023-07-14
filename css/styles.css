@@ -708,12 +708,16 @@ button {
 
 /* Footer networks */
 
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .footer-networks {
   display: flex;
   flex-direction: column;
   gap: 16px;
   max-width: 692px;
-  margin-right: 120px;
+  margin-left: 120px;
 }
 .footer-media {
   color: var(--our-team-bg);
